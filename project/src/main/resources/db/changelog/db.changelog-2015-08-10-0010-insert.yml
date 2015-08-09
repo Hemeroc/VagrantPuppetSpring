@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: insertSampleData
+      author: hemeroc
+      changes:
+        - loadData:
+            encoding: UTF-8
+            file: db/changelog/data/person.csv
+            tableName: person

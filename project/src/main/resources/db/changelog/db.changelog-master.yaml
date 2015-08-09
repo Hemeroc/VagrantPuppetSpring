@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/db.changelog-2015-08-10-0000-init.yml
+  - include:
+      file: db/changelog/db.changelog-2015-08-10-0010-insert.yml
